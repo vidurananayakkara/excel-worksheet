@@ -1,0 +1,33 @@
+target/
+*/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+deployment/artifacts/*.zip
+deployment/artifacts/*.jar
+deployment/artifacts/*.gz
+
+docker/*/files/jdk*
+docker/*/files/wso2*
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
